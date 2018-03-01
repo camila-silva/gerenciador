@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <script defer type="text/javascript" src="index.js"></script>
+    <title>Gerenciador</title>
+</head>
+<body>
+    <header>
+        <h2>Gerenciador de tarefas</h2>
+    </header>
+
+    <div class="botoes">
+        <div class="dias">
+            <button id="botaoCam" class="camareira">Camareiras</button>
+                <div id="camdown" class="camdown-content">
+                    <a href="#segunda" onclick="camSegFunction()">Segunda</a>
+                    <a href="#terça" onclick="camTerFunction()">Terça</a>
+                    <a href="#quarta" onclick="camQuaFunction()">Quarta</a>
+                    <a href="#quinta" onclick="camQuiFunction()">Quinta</a>
+                    <a href="#sexta" onclick="camSexFunction()">Sexta</a>
+                    <a href="#sabado" onclick="camSabFunction()">Sábado</a>
+                    <a href="#domingo" onclick="camDomFunction()">Domingo</a>
+                </div>
+        </div>
+
+        <div class="dias2">
+            <button id="botaoRec" class="recepcao">Recepcionistas</button>
+                <div id="recdown" class="recdown-content">
+                    <a href="#segunda2" onclick="recSegFunction()">Segunda</a>
+                    <a href="#terça2" onclick="recTerFunction()">Terça</a>
+                    <a href="#quarta2" onclick="recQuaFunction()">Quarta</a>
+                    <a href="#quinta2" onclick="recQuiFunction()">Quinta</a>
+                    <a href="#sexta2" onclick="recSexFunction()">Sexta</a>
+                    <a href="#sabado2" onclick="recSabFunction()">Sábado</a>
+                    <a href="#domingo2" onclick="recDomFunction()">Domingo</a>
+                </div>
+        </div>
+
+        <div id="imprimir"></div>
+
+    </div>
+
+
+</body>
+</html>
